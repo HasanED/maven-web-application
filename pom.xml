@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>com.mt</groupId>
+	<groupId>Hasan.com</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
@@ -13,8 +13,8 @@
 	<description>Maven Web Project</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
-		<url>http://mithuntechnologies.com/</url>
+		<name>Hasan Technologies</name>
+		<url>http://hasan11.mobie.in/</url>
 	</organization>
 
 	<properties>
@@ -88,13 +88,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:8090/mithuntechnologies/repository/maven-web-application-release/</url>
+	      <name>Hasan Technologies-Releases Nexus Repository</name>
+	      <url>http://localhost:9090/infosys/repository/Maven-Web-Project-stage-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:8090/mithuntechnologies/repository/maven-web-application-snapshot/</url>
+	      <name>Hasan technologies-Snapshot Nexus Repository </name>
+	      <url>http://localhost:9090/infosys/repository/Maven-Web-Project-stage-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
